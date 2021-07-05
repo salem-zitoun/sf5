@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '53698984fc25c1caa5778b7e9f5aa83d5b84cbf6',
+        'reference' => '29440e7521d12ba14876145c643922e835bd649e',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '53698984fc25c1caa5778b7e9f5aa83d5b84cbf6',
+            'reference' => '29440e7521d12ba14876145c643922e835bd649e',
             'dev_requirement' => false,
         ),
         'api-platform/core' => array(
@@ -870,6 +870,15 @@
             'install_path' => __DIR__ . '/../sensio/framework-extra-bundle',
             'aliases' => array(),
             'reference' => '62c5909f49cf74dccdf50a294511cc24be2f969c',
+            'dev_requirement' => false,
+        ),
+        'snc/redis-bundle' => array(
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../snc/redis-bundle',
+            'aliases' => array(),
+            'reference' => 'd7718cd75166bb256380cf428cbde54402be149e',
             'dev_requirement' => false,
         ),
         'symfony/amqp-messenger' => array(
