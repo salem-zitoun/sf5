@@ -153,11 +153,32 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },
+    "guzzlehttp/guzzle": {
+        "version": "7.3.0"
+    },
+    "guzzlehttp/promises": {
+        "version": "1.4.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "2.0.0"
+    },
     "illuminate/contracts": {
         "version": "v7.30.4"
     },
     "illuminate/support": {
         "version": "v7.30.4"
+    },
+    "knpuniversity/oauth2-client-bundle": {
+        "version": "1.20",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.20",
+            "ref": "80acc9223a205cbf5d9828fd616c82a374d281dd"
+        },
+        "files": [
+            "./config/packages/knpu_oauth2_client.yaml"
+        ]
     },
     "laminas/laminas-code": {
         "version": "3.4.1"
@@ -173,6 +194,9 @@
     },
     "league/csv": {
         "version": "9.6.2"
+    },
+    "league/oauth2-client": {
+        "version": "2.6.0"
     },
     "lexik/jwt-authentication-bundle": {
         "version": "2.5",
@@ -227,6 +251,9 @@
     },
     "nikic/php-parser": {
         "version": "v4.11.0"
+    },
+    "paragonie/random_compat": {
+        "version": "v9.99.100"
     },
     "phar-io/manifest": {
         "version": "2.0.1"
@@ -316,6 +343,9 @@
     },
     "psr/simple-cache": {
         "version": "1.0.1"
+    },
+    "ralouphie/getallheaders": {
+        "version": "3.0.3"
     },
     "sebastian/code-unit-reverse-lookup": {
         "version": "1.0.2"

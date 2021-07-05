@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '29440e7521d12ba14876145c643922e835bd649e',
+        'reference' => '46dee2c46781f446a4997876ab02feee897908c2',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '29440e7521d12ba14876145c643922e835bd649e',
+            'reference' => '46dee2c46781f446a4997876ab02feee897908c2',
             'dev_requirement' => false,
         ),
         'api-platform/core' => array(
@@ -289,6 +289,33 @@
             'reference' => '006aa5d32f887a4db4353b13b5b5095613e0611f',
             'dev_requirement' => false,
         ),
+        'guzzlehttp/guzzle' => array(
+            'pretty_version' => '7.3.0',
+            'version' => '7.3.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/guzzle',
+            'aliases' => array(),
+            'reference' => '7008573787b430c1c1f650e3722d9bba59967628',
+            'dev_requirement' => false,
+        ),
+        'guzzlehttp/promises' => array(
+            'pretty_version' => '1.4.1',
+            'version' => '1.4.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/promises',
+            'aliases' => array(),
+            'reference' => '8e7d04f1f6450fef59366c399cfad4b9383aa30d',
+            'dev_requirement' => false,
+        ),
+        'guzzlehttp/psr7' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/psr7',
+            'aliases' => array(),
+            'reference' => '1dc8d9cba3897165e16d12bb13d813afb1eb3fe7',
+            'dev_requirement' => false,
+        ),
         'illuminate/contracts' => array(
             'pretty_version' => 'v7.30.4',
             'version' => '7.30.4.0',
@@ -305,6 +332,15 @@
             'install_path' => __DIR__ . '/../illuminate/support',
             'aliases' => array(),
             'reference' => '1c95b8f842308ff15a56d29d897d3bda29001f1c',
+            'dev_requirement' => false,
+        ),
+        'knpuniversity/oauth2-client-bundle' => array(
+            'pretty_version' => 'v2.8.0',
+            'version' => '2.8.0.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../knpuniversity/oauth2-client-bundle',
+            'aliases' => array(),
+            'reference' => '5493de2a2e6385bb31426dce57e8113610359c30',
             'dev_requirement' => false,
         ),
         'laminas/laminas-code' => array(
@@ -350,6 +386,15 @@
             'install_path' => __DIR__ . '/../league/csv',
             'aliases' => array(),
             'reference' => 'f28da6e483bf979bac10e2add384c90ae9983e4e',
+            'dev_requirement' => false,
+        ),
+        'league/oauth2-client' => array(
+            'pretty_version' => '2.6.0',
+            'version' => '2.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/oauth2-client',
+            'aliases' => array(),
+            'reference' => 'badb01e62383430706433191b82506b6df24ad98',
             'dev_requirement' => false,
         ),
         'lexik/jwt-authentication-bundle' => array(
@@ -474,6 +519,15 @@
             'replaced' => array(
                 0 => '^2.1',
             ),
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'v9.99.100',
+            'version' => '9.99.100.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(),
+            'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
+            'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
             'pretty_version' => '2.0.1',
@@ -700,6 +754,12 @@
             'reference' => '12ac7fcd07e5b077433f5f2bee95b3a771bf61be',
             'dev_requirement' => false,
         ),
+        'psr/http-factory-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
+        ),
         'psr/http-message' => array(
             'pretty_version' => '1.0.1',
             'version' => '1.0.1.0',
@@ -708,6 +768,12 @@
             'aliases' => array(),
             'reference' => 'f6561bf28d520154e4b0ec72be95418abe6d9363',
             'dev_requirement' => false,
+        ),
+        'psr/http-message-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
         ),
         'psr/link' => array(
             'pretty_version' => '1.0.0',
@@ -754,6 +820,15 @@
             'provided' => array(
                 0 => '1.0',
             ),
+        ),
+        'ralouphie/getallheaders' => array(
+            'pretty_version' => '3.0.3',
+            'version' => '3.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ralouphie/getallheaders',
+            'aliases' => array(),
+            'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+            'dev_requirement' => false,
         ),
         'sebastian/code-unit-reverse-lookup' => array(
             'pretty_version' => '1.0.2',
